@@ -12,6 +12,20 @@
 		2CB9084C1BC501AC003D34D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9084A1BC501AC003D34D2 /* Main.storyboard */; };
 		2CB9084E1BC501AC003D34D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9084D1BC501AC003D34D2 /* Assets.xcassets */; };
 		2CB908511BC501AC003D34D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9084F1BC501AC003D34D2 /* LaunchScreen.storyboard */; };
+		2CB908621BC50290003D34D2 /* attack.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB908591BC50290003D34D2 /* attack.png */; settings = {ASSET_TAGS = (); }; };
+		2CB908631BC50290003D34D2 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9085A1BC50290003D34D2 /* bg.png */; settings = {ASSET_TAGS = (); }; };
+		2CB908641BC50290003D34D2 /* chest.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9085B1BC50290003D34D2 /* chest.png */; settings = {ASSET_TAGS = (); }; };
+		2CB908651BC50290003D34D2 /* enem1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9085C1BC50290003D34D2 /* enem1.png */; settings = {ASSET_TAGS = (); }; };
+		2CB908661BC50290003D34D2 /* enem2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9085D1BC50290003D34D2 /* enem2.png */; settings = {ASSET_TAGS = (); }; };
+		2CB908671BC50290003D34D2 /* ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9085E1BC50290003D34D2 /* ground.png */; settings = {ASSET_TAGS = (); }; };
+		2CB908681BC50290003D34D2 /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9085F1BC50290003D34D2 /* player.png */; settings = {ASSET_TAGS = (); }; };
+		2CB908691BC50290003D34D2 /* print.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB908601BC50290003D34D2 /* print.png */; settings = {ASSET_TAGS = (); }; };
+		2CB9086A1BC50290003D34D2 /* torch.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB908611BC50290003D34D2 /* torch.png */; settings = {ASSET_TAGS = (); }; };
+		2CB9086C1BC5032F003D34D2 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9086B1BC5032F003D34D2 /* Character.swift */; settings = {ASSET_TAGS = (); }; };
+		2CB9086E1BC505B4003D34D2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9086D1BC505B4003D34D2 /* Player.swift */; settings = {ASSET_TAGS = (); }; };
+		2CB908701BC50834003D34D2 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9086F1BC50834003D34D2 /* Enemy.swift */; settings = {ASSET_TAGS = (); }; };
+		2CB908721BC509DA003D34D2 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB908711BC509DA003D34D2 /* Kimara.swift */; settings = {ASSET_TAGS = (); }; };
+		2CB908741BC50B55003D34D2 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB908731BC50B55003D34D2 /* DevilWizard.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		2CB9084D1BC501AC003D34D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB908501BC501AC003D34D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB908521BC501AC003D34D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB908591BC50290003D34D2 /* attack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = attack.png; sourceTree = "<group>"; };
+		2CB9085A1BC50290003D34D2 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		2CB9085B1BC50290003D34D2 /* chest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chest.png; sourceTree = "<group>"; };
+		2CB9085C1BC50290003D34D2 /* enem1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enem1.png; sourceTree = "<group>"; };
+		2CB9085D1BC50290003D34D2 /* enem2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enem2.png; sourceTree = "<group>"; };
+		2CB9085E1BC50290003D34D2 /* ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ground.png; sourceTree = "<group>"; };
+		2CB9085F1BC50290003D34D2 /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		2CB908601BC50290003D34D2 /* print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = print.png; sourceTree = "<group>"; };
+		2CB908611BC50290003D34D2 /* torch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = torch.png; sourceTree = "<group>"; };
+		2CB9086B1BC5032F003D34D2 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		2CB9086D1BC505B4003D34D2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		2CB9086F1BC50834003D34D2 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		2CB908711BC509DA003D34D2 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		2CB908731BC50B55003D34D2 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +84,34 @@
 			children = (
 				2CB908461BC501AC003D34D2 /* AppDelegate.swift */,
 				2CB908481BC501AC003D34D2 /* ViewController.swift */,
+				2CB9086B1BC5032F003D34D2 /* Character.swift */,
+				2CB9086F1BC50834003D34D2 /* Enemy.swift */,
+				2CB908711BC509DA003D34D2 /* Kimara.swift */,
+				2CB908731BC50B55003D34D2 /* DevilWizard.swift */,
+				2CB9086D1BC505B4003D34D2 /* Player.swift */,
 				2CB9084A1BC501AC003D34D2 /* Main.storyboard */,
 				2CB9084D1BC501AC003D34D2 /* Assets.xcassets */,
 				2CB9084F1BC501AC003D34D2 /* LaunchScreen.storyboard */,
 				2CB908521BC501AC003D34D2 /* Info.plist */,
+				2CB908581BC50290003D34D2 /* oop-art */,
 			);
 			path = rpgoop;
+			sourceTree = "<group>";
+		};
+		2CB908581BC50290003D34D2 /* oop-art */ = {
+			isa = PBXGroup;
+			children = (
+				2CB908591BC50290003D34D2 /* attack.png */,
+				2CB9085A1BC50290003D34D2 /* bg.png */,
+				2CB9085B1BC50290003D34D2 /* chest.png */,
+				2CB9085C1BC50290003D34D2 /* enem1.png */,
+				2CB9085D1BC50290003D34D2 /* enem2.png */,
+				2CB9085E1BC50290003D34D2 /* ground.png */,
+				2CB9085F1BC50290003D34D2 /* player.png */,
+				2CB908601BC50290003D34D2 /* print.png */,
+				2CB908611BC50290003D34D2 /* torch.png */,
+			);
+			path = "oop-art";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,7 +171,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB908671BC50290003D34D2 /* ground.png in Resources */,
+				2CB908631BC50290003D34D2 /* bg.png in Resources */,
+				2CB908651BC50290003D34D2 /* enem1.png in Resources */,
 				2CB908511BC501AC003D34D2 /* LaunchScreen.storyboard in Resources */,
+				2CB908661BC50290003D34D2 /* enem2.png in Resources */,
+				2CB908621BC50290003D34D2 /* attack.png in Resources */,
+				2CB908691BC50290003D34D2 /* print.png in Resources */,
+				2CB908681BC50290003D34D2 /* player.png in Resources */,
+				2CB9086A1BC50290003D34D2 /* torch.png in Resources */,
+				2CB908641BC50290003D34D2 /* chest.png in Resources */,
 				2CB9084E1BC501AC003D34D2 /* Assets.xcassets in Resources */,
 				2CB9084C1BC501AC003D34D2 /* Main.storyboard in Resources */,
 			);
@@ -134,6 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB9086E1BC505B4003D34D2 /* Player.swift in Sources */,
+				2CB908701BC50834003D34D2 /* Enemy.swift in Sources */,
+				2CB908741BC50B55003D34D2 /* DevilWizard.swift in Sources */,
+				2CB908721BC509DA003D34D2 /* Kimara.swift in Sources */,
+				2CB9086C1BC5032F003D34D2 /* Character.swift in Sources */,
 				2CB908491BC501AC003D34D2 /* ViewController.swift in Sources */,
 				2CB908471BC501AC003D34D2 /* AppDelegate.swift in Sources */,
 			);
